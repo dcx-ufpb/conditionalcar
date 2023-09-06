@@ -1,0 +1,185 @@
+#header {
+	position: fixed;
+	background-color: black;
+	width: 100%;
+	height: 50px;
+	margin-top: -10px;
+	z-index: 9999;
+}
+
+#logo_home {
+	float: left;
+	margin-top: 2px;
+	margin-left: 4px;
+	height: 45px;
+	width: 70px;
+}
+
+#logo_home img {
+	height: 45px;
+	width: 175px;
+}
+
+#navbar {
+	position: relative;
+	float: right;
+	width: 40%;
+	margin-top: 0px;
+}
+
+#navbar ul {
+	list-style-type: none;
+	position: fixed;
+
+}
+
+#navbar li {
+	color: white;
+	display: inline;
+	padding: 5px;
+	border: 1px solid #000000;
+	font-family: arial;
+	margin: 5px;
+}
+
+#descricao {
+    position: relative;
+    width: 45%;
+    height: 340px;
+    display: inline;
+    float: left;
+    margin-top: 10px;
+    margin-left: 2%;
+}
+
+#opcao {
+    /*position: relative;*/
+    display: inline;
+    float: right;
+    width: 45%;
+    height: 340px;
+    margin-top: 10px;
+    margin-right: 2%
+}
+
+#intrucoes {
+	float: center;
+	text-align: center;
+}
+
+#intrucoes p {
+    float: center;
+    width: 97%;
+}
+
+p {
+	font-size: 20px;
+	text-align: justify;
+	color: #808080;
+	font-family: arial;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+
+}
+
+h1 {
+	display: fixed;
+	color: #808080;
+	text-align: center;
+	font-family: arial;
+    font-size: 25px;
+}
+
+.button {
+	display: block;
+	border-radius: 15px;	
+	background-color: #808080;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   	position: relative;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, 50%);
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #a8a8a8; 
+}
+
+.button span {
+  	cursor: pointer;
+  	display: inline-block;
+  	position: relative;
+  	transition: 0.5s;
+}
+
+.button span:after {
+  	content: '»';
+  	position: absolute;
+  	opacity: 0;
+  	top: 0;
+  	right: -20px;
+  	transition: 0.5s;
+}
+
+.button:hover span {
+  	padding-right: 25px;
+}
+
+.button:hover span:after {
+  	opacity: 1;
+  	right: 0;
+}
+
+.jumbotron {
+	display: fixed;
+	height: 400px;
+	margin-top: 10px;
+    float: center;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #a8a8a8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #7e7e7e}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #7e7e7e;
+}
